@@ -7,7 +7,7 @@ package net.cal.sort;
  * @author wangxm
  *
  */
-public class Bubble {
+public class SelectSort {
     public static void main(String[] args) {
         int[] intarr = new int[] {
             1, -2, 0, -1
@@ -19,10 +19,6 @@ public class Bubble {
                     int tmp = intarr[i];
                     intarr[i] = intarr[j];
                     intarr[j] = tmp;
-                    System.out.println("####################");
-                    for (int x : intarr) {
-                        System.out.println(x);
-                    }
                 }
             }
         }
